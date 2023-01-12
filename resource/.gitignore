@@ -1,0 +1,9 @@
+cypress/videos
+cypress/screenshots
+cypress/downloads
+node_modules
+package-lock.json
+yarn.lock
+
+#this file contains cypress env variables inside
+cypress.config.js
