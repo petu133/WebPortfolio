@@ -5,5 +5,5 @@ node_modules
 package-lock.json
 yarn.lock
 
-#this file contains cypress env variables inside
+#inside this file there're cypress env variables 
 cypress.config.js

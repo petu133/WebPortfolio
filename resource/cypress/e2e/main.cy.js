@@ -12,4 +12,10 @@ describe('template spec', () => {
       expect(img.naturalHeight).equal(612);
     })
   })
+
+  it('main url display', () => {
+    cy.title().should('contain', 'Portfolio')
+  })
+
+
 })
