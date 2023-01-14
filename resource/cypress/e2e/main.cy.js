@@ -17,5 +17,12 @@ describe('template spec', () => {
     cy.title().should('contain', 'Portfolio')
   })
 
+  it('name of the person stands out', () => {
+    cy.get('[data-cy="person-name"]').should('have.css', 'color', 'rgb(39, 174, 96)')
+    cy.get('[data-person-name="person-name"]').should('have.css', 'color', 'rgb(39, 174, 96)')
+  })
 
+
+
+  
 })
